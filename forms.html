@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Registration form</title>
+</head>
+
+<body>
+    <h1><strong>My First Registration Form</strong></h1>
+    <h4>Contact details</h4>
+    <h4>My Phone Number : 0428594584</h4>
+    <h4>My email : waghbakri@gmail.com</h4><hr style="height:5px" color="black"></hr>
+    <form action="mailto:om.sce21@sot.pdpu.ac.in" method="post" enctype="text/plain"><!--Action attribute sets the action to be done after the submit button gets clicked.-->
+        <label>Your name:</label><br>
+        <input type="text"
+            name="Form"><br><br><!--Value attribute sets the default value of input whereas name attribute describes or refers to the name of the input type.-->
+        <input type="file"><br>
+        <br>
+        <fieldset><!--Used to group related elements in a form.-->
+            <legend>Gender</legend>
+            <label>Male</label>
+            <input type="radio" name="radio" value="yes" />
+            <label>Female</label>
+            <input type="radio" name="radio"
+                value="no" /><!--there are also checkbox buttons, date buttons etc..as input type.-->
+        </fieldset>
+        <br>
+        <label>Password</label>
+        <input type="password"><br><br>
+        <label>Enter your Email: </label>
+        <input type="email" name="yourEmail" value=""><br><br>
+        <label>Any message you'd like to enter: </label><br><br>
+        <textarea rows="10" cols="30"></textarea> <br><br>
+        <label>Date</label>
+        <input type="date" name="date"><br><br>
+        <input type="color" name="color" value=""><br><br>
+        <label>Submit</label>
+        <input type="Submit" name="Submit" value="Submit">
+    </form>
+</body>
+
+</html>
